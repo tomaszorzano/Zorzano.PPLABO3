@@ -2,7 +2,7 @@
     max-width: 600px;
     display: flex;
     margin: 0 auto;
-    background-color: rgb(37, 111, 180);
+    background-color: white;
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -70,4 +70,16 @@ footer{
   display: flex;
   justify-content:space-around;
   flex-direction: row;
+}
+#ad{
+  padding: 15px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  margin: 0;
+  font-size: xx-large;
+}
+
+input{
+  background-color: wheat;    
+  border-radius: 5px;
 }

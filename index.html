@@ -24,10 +24,10 @@
             </ul>
         </nav>
 
-        <h1>Administracion</h1>
+        <p id="ad">Administracion</p>
         <img src="./images/header.jpg" alt="header">
     </header>
-
+    
     <main>
         <div class="container">
 
@@ -35,10 +35,10 @@
                 <legend>Informacion del anuncio</legend>
                 <form>
                     <input type="hidden" name="id">
-                    <h1>Titulo:</h1>
+                    <label>Titulo:</label>
                     <input type="text" name="titulo" placeholder="Titulo" required /> <br />
                     <br />
-                    <h1>Descripcion:</h1>
+                    <label>Descripcion:</label>
                     <input type="text" name="descripcion" placeholder="Descripcion" required /> <br />
                     <br />
                     <fieldset>
@@ -46,17 +46,17 @@
                         <input type="radio" name="tipo" value="perro" checked /> Perro <br />
                         <input type="radio" name="tipo" value="gato" /> Gato <br />
                     </fieldset>
-                    <h1>Precio:</h1>
+                    <label>Precio:</label>
                     <input type="number" name="precio" placeholder="Precio"><br />
                     <br />
                     <div id="rfv">
-                        <h1>Raza:</h1>
+                        <label>Raza:</label>
                         <input type="text" name="raza" placeholder="Raza"><br />
                         <br />
-                        <h1>Fecha de Nacimiento:</h1>
+                        <label>Fecha de Nacimiento:</label>
                         <input type="datetime" name="fecha" placeholder="Fecha de Nacimiento"><br />
                         <br />
-                        <h1>Vacuna:</h1>
+                        <label>Vacuna:</label>
                         <select name="vacuna" id="vacuna" multiple>
                             <option value="si" selected>Si</option>
                             <option value="no">No</option>
@@ -64,7 +64,7 @@
 
                         <br />
                     </div>
-                    <input type="submit" id="btnSubmit" value="Alta anuncio">
+                    <input type="submit" id="btnSubmit" value="Alta anuncio" id="icono" >
                     <input type="button" id="btnEliminar" class="oculto" value="Eliminar">
                     <input type="button" id="btnCancelar" class="oculto" value="Cancelar">
 
